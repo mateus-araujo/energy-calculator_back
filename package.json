@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js",
     "docker": "docker start mongodb-container",
+    "front": "cd ../energy-calculator_front && npm run start_dev",
     "heroku-postbuild": "npm install -g nodemon"
   },
   "keywords": [],
